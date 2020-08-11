@@ -16,4 +16,5 @@ end
 lowest_daily_temps << low_temp
 row_index += 1 
 end 
+lowest_daily_temps
 end
