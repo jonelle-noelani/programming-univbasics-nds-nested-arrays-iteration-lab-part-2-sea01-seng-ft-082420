@@ -7,8 +7,8 @@ row_index = 0
 while row_index < src.count do
   element_index = 0 
   low_temp = ""
-  While element_index < src[row_index].count do
-    if src[row_index][element_index].length > low_temp.length
+  while element_index < src[row_index].count do
+    if src[row_index][element_index] > low_temp
       low_temp = src[row_index][element_index]
 end
 element_index += 1 
