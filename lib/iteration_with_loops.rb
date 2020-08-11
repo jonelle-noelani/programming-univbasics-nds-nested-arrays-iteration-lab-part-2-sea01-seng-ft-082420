@@ -8,7 +8,7 @@ while row_index < src.count do
   element_index = 0 
   low_temp = 0 
   while element_index < src[row_index].count do
-    if src[row_index][element_index] > low_temp
+    if src[row_index][element_index] < low_temp
       low_temp = src[row_index][element_index]
 end
 element_index += 1 
